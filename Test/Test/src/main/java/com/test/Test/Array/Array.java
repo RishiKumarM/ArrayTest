@@ -17,7 +17,6 @@ public class Array {
             }
         }
 
-        // Sorted the array by rows
         sortArrayByRows(array);
 
         // Called function A with the sorted array

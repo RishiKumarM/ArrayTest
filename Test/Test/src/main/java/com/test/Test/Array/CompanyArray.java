@@ -20,7 +20,7 @@ public class CompanyArray {
 
 class Company {
     private String company;
-    private String manufacturing;
+    private String manufacturing; 
 
     public Company(String company, String manufacturing) {
         this.company = company;
