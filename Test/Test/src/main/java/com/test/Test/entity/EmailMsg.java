@@ -9,9 +9,9 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name = "Emailerify_Table")
+@Table(name = "Email_Verify")
 @Data
-public class Email {
+public class EmailMsg {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,7 +19,7 @@ public class Email {
 	private Long id;
 
     private String email;
-    private String otp;
+    private int otp;
     private LocalDateTime expirationTime;
     
 }
